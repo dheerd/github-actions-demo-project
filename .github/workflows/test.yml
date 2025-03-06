@@ -1,6 +1,6 @@
 name: Test project #Workflow name
 on:
-  pull_request:
+  push:
     branches:
       - main
 jobs:
